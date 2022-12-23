@@ -71,25 +71,19 @@ while True:
             # do something for option 1
             go_motor(138)
             print("138")
-            pass
         elif menu_index == 1:
             # do something for option 2
             go_motor(192)
             print("192")
-            pass
         elif menu_index == 2:
             go_motor(264)
             # do something for option 3
             print("264")
-            pass
-        
         elif menu_index == 3:
             # do something for option 4
             print("purge")
             purge()
             Motor.off()
-            pass
-
     # add a delay to prevent button bouncing
     sleep(0.1)
     Motor.off()
